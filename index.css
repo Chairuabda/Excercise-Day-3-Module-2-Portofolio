@@ -1,0 +1,433 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    max-width: 100vw;
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.navbar {
+    width: 100%;
+    height: 100%;
+}
+
+.navbarContent {
+    display: flex;
+    padding: 15px 10px;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, .1);
+    min-height: 55.2px;
+}
+
+.navbarContent .nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav .bar {
+    display: flex;
+}
+
+.iconLogoBar {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #daa520;
+    text-decoration: none;
+    padding: 10px 10px;
+    background-color: transparent;
+    border: 1px solid #daa520;
+    border-radius: 8px;
+    font-size: 12px;
+    width: 100px;
+}
+
+.logo a:hover {
+    color: white;
+    border: 1px solid white;
+}
+
+.logo a:active {
+    color: black;
+    border: 1px solid #daa520;
+    background-color: #daa520;
+}
+
+.nav .bar .home, .aboutme, .portofolio, .experience {
+    margin: 10px;
+}
+
+.nav .bar a {
+    color: #daa520;
+    border-bottom: 3px solid transparent;
+
+    padding: 5px;
+}
+
+.nav .bar a:hover {
+    border-bottom: 3px solid white;
+}
+
+.nav .bar a:active {
+    color: white;
+    border-bottom: 4px solid #daa520;
+}
+
+.listIcon {
+    color: #daa520;
+    display: none;
+    margin: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.listIcon:active {
+    color: white;
+    border: none;
+}
+
+
+/* Content */
+
+.bodyContent .titleText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100vw;
+    margin-top: 80px;
+}
+
+.mainText {
+    width: 80%;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+.bodyContent .titleText h3 {
+    margin-bottom: -4px;
+}
+
+.bodyContent .titleText h1 {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+
+.titleText .titleDot {
+    font-size: 50px;
+}
+
+.firstContent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.firstContent .btnProject {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.firstContent a {
+    width: 80%;
+}
+
+.firstContent a button {
+    display: flex;
+    background-color: black;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #daa520;
+    border: 1px solid #daa520;
+}
+
+.firstContent a button:hover {
+    border: 1px solid white;
+    color: white;
+}
+
+.firstContent a button:active {
+    background-color: #daa520;
+    color: black;
+    border: 1px solid #daa520;
+}
+
+.mainContent .titleText {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainContent .titleText .sosmed {
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.titleText .sosmed a {
+    font-size: 18px;
+    margin-right: 10px;
+    color: white;
+}
+
+.titleText .sosmed a:hover {
+    color: #daa520;
+}
+
+/* Section 2 */
+
+.containerContent2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+.mainContent2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imgContent2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;
+}
+
+.imgContent2 img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.titleContent2 {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px 0px;
+}
+
+.titleContent2 h3 {
+    margin-bottom: 10px;
+}
+
+.titleContent2 p {
+    text-align: justify;
+}
+.cardContent2 {
+    margin-top: 40px;
+}
+
+.cardContent2 ul {
+    list-style-type: none;
+}
+
+.listCardContent2 {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(2, 2fr);
+    border: 2px solid #daa520;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.listCardContent2 .firstUl {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+    color: #daa520;
+}
+
+.listCardContent2 .secondUl {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    color: #daa520;
+}
+
+.listCardContent2 li {
+    font-size: 12px;
+}
+
+
+/* Section 3 */
+.containerContent3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.containerContent3 h1{
+    margin: 50px 0px;
+    font-size: 36px;
+    border-bottom: 4px solid #daa520;
+    border-radius: 10px;
+    padding-bottom: 3px;
+}
+.containerContent3 .titleSkills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skills {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+}
+.skillsConver {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0px;
+}
+.descriptionSkills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+.descriptionSkills h3 {
+    color: #daa520;
+    margin-bottom: 10px;
+}
+.descriptionSkills .descSkill {
+    width: 80%;
+}
+
+/* Footer */
+footer .footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin-top: 80px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, .1);
+    padding: 20px;
+    text-align: center;
+}
+.footer .termscond {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+.footer .termscond a{
+    text-decoration: none;
+    color: white;
+}
+.footer .termscond a:hover{
+    color: #daa520;
+}
+
+
+/* Resposive */
+@media only screen and (max-width : 768px) {
+
+    /* Navbar */
+    .iconLogoBar .icon a {
+        font-size: 10px;
+    }
+
+    .navbarContent {
+        width: 100%;
+        display: inline-block;
+    }
+
+    .nav {
+        flex-wrap: wrap;
+        justify-content: end;
+    }
+
+    .navbarContent .hidden {
+        display: none;
+    }
+
+    .nav .bar {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav .bar .home, .aboutme, .portofolio, .experience {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbarContent .listIcon {
+        width: 100%;
+        justify-content: end;
+        display: flex;
+        align-items: center;
+    }
+
+    /* Content */
+    .mainText {
+        font-size: 20px;
+    }
+
+    .titleText .titleDot {
+        display: none;
+    }
+
+    .bodyContent .titleText h1 {
+        font-size: 36px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .firstContent {
+        margin-top: 100px;
+    }
+    .mainContent2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 100px;
+        padding: 0px 80px;
+    }
+    .mainContent2 .imgContent2 img {
+        width: 300px;
+    }
+    .cardContent2 {
+        margin-top: 10px;
+    }
+    .containerContent3 .titleSkills {
+        margin-top: 100px;
+    }
+    .containerContent3 .skills {
+        display: flex;
+        padding: 30px;
+    }
+}
