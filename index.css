@@ -431,3 +431,12 @@ footer .footer {
         padding: 30px;
     }
 }
+
+@media screen and (min-width: 1025px) {
+    .mainContent2 {
+        margin-top: 150px;
+    }
+    .containerContent3 .titleSkills {
+        margin-top: 150px;
+    }
+}
