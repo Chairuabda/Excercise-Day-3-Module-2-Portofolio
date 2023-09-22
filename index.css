@@ -435,7 +435,7 @@ footer .footer {
 }
 
 @media screen and (min-width: 1025px) {
-	.mainContent2 {
+	.bodyContent .mainContent2 {
 		margin-top: 150px;
 	}
 	.containerContent3 .titleSkills {
